@@ -9,6 +9,7 @@ AWS Elastic Container Service on a budget
   EC2 instances have Security Groups which allow conncetions only from Load Balancer<br>
 * Application Load Balancer with container health monitoring system
 * Elastic File System for statefull containers
+* Task nginx (presented as an example)
 * All new resources are taged and/or named to let us know that they belong to this project
 
 (!) If you want to use a spot instance for the Bastion host, you need to check the number of spot instance limit in your account. By default, this number is zero and you need to request a limit increase.
@@ -27,3 +28,5 @@ cd ..\Tasks\nginx<br>
 terraform init<br>
 task-plan.bat<br>
 task-apply.bat<br>
+
+3. Open ALB URL in an Internet Brouser and you will get access to two nginx containers through the Load Balancer.
