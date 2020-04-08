@@ -14,3 +14,16 @@ AWS Elastic Container Service on a budget
 (!) If you want to use a spot instance for the Bastion host, you need to check the number of spot instance limit in your account. By default, this number is zero and you need to request a limit increase.
 
 ![VPC-Image](https://github.com/georgio-sd/aws-terraform-ecs-cluster/raw/master/aws2.jpg)
+
+Instruction (for windows users):
+1. Edit config.tfvars and credentials.tfvar
+
+2. Run commands
+cd Cluster
+terraform init
+cluster-plan.bat
+cluster-apply.bat
+cd ..\Tasks\nginx
+terraform init
+task-plan.bat
+task-apply.bat
