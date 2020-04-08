@@ -18,12 +18,12 @@ AWS Elastic Container Service on a budget
 Instruction (for windows users):
 1. Edit config.tfvars and credentials.tfvar
 
-2. Run commands
-cd Cluster
-terraform init
-cluster-plan.bat
-cluster-apply.bat
-cd ..\Tasks\nginx
-terraform init
-task-plan.bat
-task-apply.bat
+2. Run commands<br>
+cd Cluster<br>
+terraform init<br>
+cluster-plan.bat<br>
+cluster-apply.bat<br>
+cd ..\Tasks\nginx<br>
+terraform init<br>
+task-plan.bat<br>
+task-apply.bat<br>
