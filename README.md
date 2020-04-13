@@ -5,7 +5,7 @@ AWS Elastic Container Service on a budget
 * Internet Gateway for Internet access
 * 2 Subnets in 2 Availability Zones A and B<br>
   Public Subnets A (10.0.0.0/24) and B (10.0.1.0/24) with Public IPs<br>
-* ECS Cluster based on EC2 spot instances with Auto Scaling Group for Hight Availability<br>
+* ECS Cluster based on EC2 spot instances with Auto Scaling Group for High Availability<br>
   EC2 instances have Security Groups which allow conncetions only from Load Balancer<br>
 * Application Load Balancer with container health monitoring system
 * Elastic File System for statefull containers
