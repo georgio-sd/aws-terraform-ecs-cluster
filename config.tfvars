@@ -1,10 +1,10 @@
 # ECS cluster configuration
 #
 #
-# Number of EC2 instances to launch in your ECS cluster
+# Desired number of EC2 instances in your ECS cluster
 ecsDesiredCapacity = "2"
 #
-# Number of EC2 instances to launch in your ECS cluster
+# Max number of EC2 instances in your ECS cluster
 ecsMaxCapacity = "6"
 #
 # Image type, spot price and key
